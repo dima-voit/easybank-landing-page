@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Public Sans', sans-serif;
+  }
+}
+
+.burger {
+  width: 20px;
+  height: 15px;
+  position: relative;
+}
+
+.burger-line {
+  display: flex;
+  width: 20px;
+  height: 2px;
+  background: hsl(233, 26%, 24%);
+}
+
+.top-line {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.middle-line {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.bottom-line {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.burger.open > .top-line {
+  transform: translateY(3px) rotate(45deg);
+  transition: 0.3s all ease-in;
+}
+
+.burger.open > .middle-line {
+  opacity: 0;
+  transition: 0.3s all ease-in;
+}
+
+.burger.open > .bottom-line {
+  transform: translateY(-10px) rotate(-45deg);
+  transition: 0.3s all ease-in;
+}
