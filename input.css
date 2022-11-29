@@ -54,3 +54,7 @@
   transform: translateY(-10px) rotate(-45deg);
   transition: 0.3s all ease-in;
 }
+
+#menu-overlay.active {
+  transform: scale(1);
+}

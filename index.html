@@ -44,16 +44,18 @@
               <a class="relative after:content-[''] after:absolute after:block after:w-full after:h-1 after:-bottom-[32px] after:hover:scale-x-100 after:scale-x-0 after:bg-gradient-to-r from-limegreen to-brightcyan after:transition after:ease-in after:duration-300" href="#!">Careers</a>
             </li>
           </ul>
-          <ul id="menu" class="absolute hidden flex-col items-center gap-5 p-5 left-6 right-6 top-[100px] font-bold rounded bg-white">
-            <li><a href="#!">Home</a></li>
-            <li><a href="#!">About</a></li>
-            <li><a href="#!">Contact</a></li>
-            <li><a href="#!">Blog</a></li>
-            <li><a href="#!">Careers</a></li>
-          </ul>
+          <div id="menu-overlay" class="fixed flex-col top-0 left-0 right-0 bottom-0 scale-0 bg-gradient-to-b from-darkblue to-transparent transition z-40">
+            <ul id="menu" class="hidden flex-col items-center gap-5 p-5 left-6 right-6 top-[100px] font-bold text-center rounded bg-white">
+              <li><a href="#!">Home</a></li>
+              <li><a href="#!">About</a></li>
+              <li><a href="#!">Contact</a></li>
+              <li><a href="#!">Blog</a></li>
+              <li><a href="#!">Careers</a></li>
+            </ul>
+          </div>
         </nav>
         <button class="hidden lg:block px-7 py-2 text-white rounded-full bg-gradient-to-r from-limegreen to-brightcyan transition ease-in duration-300 hover:opacity-75 hover:ease-in">Request Invite</button>
-        <button class="burger lg:hidden">
+        <button class="burger lg:hidden z-40">
           <span class="burger-line top-line"></span>
           <span class="burger-line middle-line"></span>
           <span class="burger-line bottom-line"></span>
@@ -237,7 +239,7 @@
         </div>
         <div class="attribution mt-4">
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-          Coded by <a href="https://www.frontendmentor.io/profile/dima-voit" target="_blank">Dmytro</a>.
+          Coded by <a href="https://www.linkedin.com/in/dmytro-voit" target="_blank">Dmytro</a>.
         </div>
       </div>
     </footer>
