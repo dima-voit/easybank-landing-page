@@ -14,6 +14,8 @@ Your users should be able to:
 - See hover states for all interactive elements on the page
 
 While doing this task, I decided to use Tailwind CSS. Performing the task, I wanted to understand how this CSS framework works.
+##
+### Demo [Easybank](https://vercel.com/dima-voit/easybank-landing-page) | Challenge on [Frontendmentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN)
 
 ---
 
