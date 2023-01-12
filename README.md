@@ -15,7 +15,7 @@ Your users should be able to:
 
 While doing this task, I decided to use Tailwind CSS. Performing the task, I wanted to understand how this CSS framework works.
 ##
-### Demo [Easybank](https://vercel.com/dima-voit/easybank-landing-page) | Challenge on [Frontendmentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN)
+### Demo [Easybank](https://easybank-landing-page-seven-lyart.vercel.app) | Challenge on [Frontendmentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN)
 
 ---
 
