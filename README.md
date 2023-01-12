@@ -22,3 +22,10 @@ While doing this task, I decided to use Tailwind CSS. Performing the task, I wan
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=FFFFFF" /> <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=flat-square&logo=Tailwind CSS&logoColor=FFFFFF" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=FFFFFF" />
 
 ---
+
+### In order to deploy the project locally, you need to:
+1. Clone the project
+2. Run command `npm install`
+3. To track changes in the project, run the command `npm run watch`
+
+---
